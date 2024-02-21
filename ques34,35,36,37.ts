@@ -1,5 +1,5 @@
 //Name : Muqaddas haideri
-// Date : 20-feb-2024
+// Date : 21-feb-2024
 
 //question 34
 console.log("question 34");
@@ -30,20 +30,21 @@ console.log(animal[1]+" would make a great pet");
 
 console.log("Any of these animals would be fascinating to see in the wild!");
 
-//question 35
+//question 36
 //T-Shirt: Write a function called make_shirt() that accepts a size and the text of a message that should be printed on the shirt. The function should print a sentence summarizing the size of the shirt and the message printed on it. Call the function.
 
-
+console.log("question 36");
 // Function to make a shirt with given size and message
-function makeShirt(size:string, message:string) {
+function makeShirt(size="", message="") {
     console.log( size+" shirt will be made with the message: "+message);
 }
 
 // Call the function
 makeShirt("Large", "hii");
-//question 36
+//question 37
 //Large Shirts: Modify the make_shirt() function so that shirts are large by default with a message that reads I love TypeScript. Make a large shirt and a medium shirt with the default message, and a shirt of any size with a different message.
-console.log("question 36");
+console.log("question 37");
 makeShirt("large","i love typesript");
 makeShirt("medium","i love java");
 makeShirt("small","i love javascript");
+
